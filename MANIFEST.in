@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mentormentee *.css
+recursive-include mentormentee *.csv
+recursive-include mentormentee *.html
+recursive-include mentormentee *.ico
+recursive-include mentormentee *.js
+recursive-include mentormentee *.json
+recursive-include mentormentee *.md
+recursive-include mentormentee *.png
+recursive-include mentormentee *.py
+recursive-include mentormentee *.svg
+recursive-include mentormentee *.txt
+recursive-exclude mentormentee *.pyc
