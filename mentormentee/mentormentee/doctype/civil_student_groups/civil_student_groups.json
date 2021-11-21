@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:student_id",
+ "creation": "2021-11-13 17:22:09.190019",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "link",
+  "student_id",
+  "full_name",
+  "branch",
+  "photo",
+  "group"
+ ],
+ "fields": [
+  {
+   "fieldname": "link",
+   "fieldtype": "Link",
+   "label": "Student Id",
+   "options": "StudentList"
+  },
+  {
+   "fieldname": "student_id",
+   "fieldtype": "Read Only",
+   "label": "Student Id",
+   "unique": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Read Only",
+   "label": "Name"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Read Only",
+   "label": "Branch"
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Read Only",
+   "label": "Photograph"
+  },
+  {
+   "fieldname": "group",
+   "fieldtype": "Select",
+   "label": "Group",
+   "options": "A1\nA2\nA3\nB1\nB2\nB3\nC1\nC2\nC3"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-11-16 22:02:05.806203",
+ "modified_by": "Administrator",
+ "module": "Mentormentee",
+ "name": "Civil Student Groups",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Civil Incharge",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
